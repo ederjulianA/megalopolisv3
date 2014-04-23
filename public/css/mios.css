@@ -1,0 +1,116 @@
+h1.megalopolis_titulo{
+	text-align: center;
+	font-family: Georgia, Comic-sans-serif;
+	font-size: 75px;
+	font-weight: bold;
+
+
+}
+
+div.productos-container {
+	max-width: 100%;
+	padding: 5px;
+	width: 100%;
+
+}
+div.productos-container .producto {
+	display: inline-block;
+	margin: 4px;
+	width: 150px;
+}
+
+textarea {
+	text-align: left;
+}
+.empresas-container {
+	margin: 30px auto;
+	padding: 3px;
+	width: 100%;
+	
+}
+.empresas-container .empresa {
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top; 
+	width: 170px;
+}
+.menu-categorias{
+
+	border: 1px solid #ccc;
+	margin: 30px; auto;
+	width: 95%;
+}
+
+.menu-categorias ul li {
+	list-style: none;
+	font-size: 18px;
+}
+
+.navegar-centro{
+	margin: 0 auto;
+	width: 95%;
+}
+
+.navegar-centro form input[type="text"], .navegar-centro form input[type="submit"]
+{
+	display: inline-block;
+	padding: 10px;
+	margin : 0 5px;
+}
+.navegar-centro form input[type="text"]{
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-ms-border-radius: 7px;
+	border-radius: 7px;
+	font-size: 18px;
+	display: inline;
+	
+	width: 80%;
+}
+
+.nueva-empresa-form{
+	margin: 100px auto;
+	width: 90%;
+}
+
+
+
+.select-ciudad {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	width: 70%;
+}
+.select-ciudad:hover {
+	cursor: pointer;
+}
+.titulo_registro{
+	
+	margin: 0 auto;
+	
+	text-align: center;
+	}
+.titulo_registro a {
+	box-shadow: 0px 2px 0px rgba(0,0,0, .8);
+	box-shadow: 0px 3px 0px rgba(0,0,0, .6);
+	box-shadow: 0px 4px 0px rgba(0,0,0, .4);
+	font-size: 30px;
+}	
+
+.form-registro{
+	margin: 10px auto;
+	width: 300px;
+}
+
+.btn-sombra {
+	box-shadow: 0px 2px 0px rgba(0,0,0, .8);
+	box-shadow: 0px 3px 0px rgba(0,0,0, .6);
+	box-shadow: 0px 4px 0px rgba(0,0,0, .4);
+}
